@@ -44,4 +44,4 @@ class RoleAdmin(admin.ModelAdmin):
 
     def employee_count (self, obj):
         return obj.emp_role.count()
-    employee_count.short_description = "NO. OF EMPLOYEE"
+    employee_count.short_description = "NO. OF EMPLOYEES"
